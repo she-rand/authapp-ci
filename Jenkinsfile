@@ -13,7 +13,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/TU_USUARIO/authapp-ci.git'
+        git 'https://github.com/brayandiazc/authapp-ci.git'
       }
     }
 
