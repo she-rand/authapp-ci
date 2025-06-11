@@ -11,12 +11,6 @@ pipeline {
   }
 
   stages {
-    stage('Checkout') {
-      steps {
-        git 'https://github.com/brayandiazc/authapp-ci.git'
-      }
-    }
-
     stage('Build y Test') {
       steps {
         sh 'mvn clean test'
