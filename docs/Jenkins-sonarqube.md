@@ -84,10 +84,8 @@ Manage Jenkins → Manage Plugins → Available
 
 🔍 Busca e instala los siguientes plugins:
 
-- **Git plugin**
-- **Pipeline**
 - **Maven Integration**
-- **SonarQube Scanner for Jenkins**
+- **SonarQube Scanner**
 - (opcional) **Docker Pipeline**
 
 ---
